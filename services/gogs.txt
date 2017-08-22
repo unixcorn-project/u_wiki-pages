@@ -1,0 +1,119 @@
+# ⚠️ Document périmé, à revoir
+
+## Instructions d'utilisation de la forge logicielle GitLab
+Forge logicielle : https://git.unixcorn.org
+
+![signin](/uploads/8426ee6c942707ae4c8dd116d18796e0/signin.png)
+
+### Remplace
+
+Ce service remplace efficacement les [silos](doc_publique/silo) non-libres Github, ou encore Google Code.
+
+### Fonctionnalités
+
+Ce service permet de :
+  * gérer vos projets et dépôts Git
+  * faire de la revue de code
+  * suivre les problèmes / bugs
+  * suivre l'activité au sein du projet
+  * rédiger de la documentation
+  * travailler de manière collaborative sur vos projets
+
+### Usages
+#### Depuis l'interface web
+##### Création d'un projet
+
+Après avoir créé un compte et vous être connecté, vous accédez au Dashboard.
+
+A partir de ce Dashboard, vous pouvez simplement créer un projet en cliquant sur le bouton "New Project": ![new-project-button](/uploads/f7c4e7ca9ebe1078ee92faac5b6d311f/new-project-button.png)
+
+Vous accédez ensuite au formulaire de création de projet:
+![project-infos](/uploads/1ee06a86f9b44444fdc3bf3f1861b642/project-infos.png)
+
+Comme l'indique ce formulaire, il y a 3 sortes de niveau de visibilité :
+  * Private : seul les utilisateurs autorisés pourront cloner le projet.
+  * Internal : tous les utilisateurs authentifiés pourront cloner le projet.
+  * Public : tout le monde pourra cloner le projet.
+
+Une fois le formulaire rempli, vous pouvez valider en appuyant sur le bouton "Create project".
+
+Vous arrivez ensuite sur le Project Dashboard:
+
+![project-dashboard](/uploads/c017a52a11c2a3f23880c10101f087fc/project-dashboard.png)
+
+Les instructions pour importer et travailler sur le projet sont indiquées juste en dessous:
+
+![instructions](/uploads/034604c7567414452be434fe60f10ad8/instructions.png)
+
+##### Gérer les membres
+
+Afin d'ajouter / supprimer des membres dans un projet, vous devez aller dans le Dashboard du projet dans l'onglet "Members".
+
+Pour ajouter un membre à votre projet, il suffit de renseigner l'ID du membre et de choisir son rôle:
+
+![add-member](/uploads/6a547017fab120c6b532538dc4bed1c0/add-member.png)
+
+Le membre est ensuite visible ainsi que son rôle dans la liste des membres:
+
+![members](/uploads/9aea91a6a4975c6726142c474c56f620/members.png)
+
+##### Commits, Files
+
+Afin d'avoir une visualisation des commits de votre projet, vous devez aller dans les onglets "Commits".
+
+Vous pouvez également voir les fichiers présents dans votre projet en allant dans l'onglet "Files".
+
+Files:
+![files](/uploads/189aac24c93c340cbac7b45180d484a2/files.png)
+
+Commits:
+![commits](/uploads/7c0fa11a7b984a8e01b611c8311faa82/commits.png)
+
+##### Issues et Milestones
+
+Vous pouvez également gérer les bugs dans l'onglet "Issues" et créer des jalons dans l'onglet "Milestones".
+
+##### Merge requests et branches
+
+Les merges vous permettent de fusionner le contenu d'une branche avec une autre.
+//Expérience personnelle//
+
+Le principe si vous travaillez à plusieurs sur un projet, c'est d'organiser vos branches comme suit :
+  * master : branche principale contenant la version stable de votre projet.
+  * dev : branche secondaire qui subira les tests avant validation.
+  * fonctionnalité_x : branche sur laquelle une personne va développer un module, une fonctionnalité du projet.
+
+Les développeurs vont travailler chacun sur des fonctionnalités. Lorsqu'ils auront finis, ils vont merge vers la branche dev afin de faire subir des tests.
+
+Pour le merge vers la branche master, le développeur va créer une "Merge request" en l'attribuant au manager du projet.
+
+Un autre développeur ou manager du projet va recevoir une notification, puis va vérifier la version avant de valider le merge.
+
+![network-final](/uploads/60704d22b68853467a2db1998139cacd/network-final.png)
+
+###### Créer une "Merge request"
+
+Tout d'abord, allez dans l'onglet "Merge requests":
+
+![merge-request](/uploads/22bac96d465e1385c7150f887b3b6432/merge-request.png)
+
+Ensuite cliquez sur "New merge request". Vous accédez maintenant à la configuration du merge:
+
+![compare-branch](/uploads/4c5063dfcbc1f0d0d96c44eb57d2a61a/compare-branch.png)
+
+Choisissez alors la branche source et la branche destination, puis validez par "Compare branches and continue". Vous accédez maintenant au formulaire d'informations sur le merge:
+
+![merge-rq-infos](/uploads/fc2c1dee2066501e81b217235803b110/merge-rq-infos.png)
+
+Comme dis précédemment, il est conseillé pour des raisons de fiabilité d'assigner cette demande à quelqu'un d'autre que le demandeur. Pour cet exemple, j'ai dû déroger à cette règle.
+
+Une fois la demande envoyée, le destinataire de la demande reçoit cette notification et peux accepter ou refuser la demande de merge:
+
+![notif-merge-rq](/uploads/e1f588b33d8c70cf414c2fb13192568e/notif-merge-rq.png)
+
+Une fois acceptée, le merge est visible:
+
+![merge-accepted](/uploads/988ae8d569b9177730411753c40766cb/merge-accepted.png)
+
+ --- 
+Documentation rédigée par : [Ludovic Delporte](https://git.unixcorn.org/ludovic.delporte), pro.delporte.ludovic@gmail.com

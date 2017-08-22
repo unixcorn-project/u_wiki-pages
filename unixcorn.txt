@@ -1,0 +1,22 @@
+# Unixcorn
+
+## Bienvenue
+
+Cette documentation est rédigée par les personnes souhaitant contribuer à la vie du projet Unixcorn.
+
+Le but de cette documentation est de fournir des explications les plus claires possible pour des utilisateurs. \\
+Au travers de ces documentations, nous vous expliquerons comment utiliser nos services.
+
+Cette documentation est composée de quatre parties différentes :
+  - La [documentation « grand public »](:unixcorn:doc_publique:doc_publique) (ouverte à tou-te-s)
+     * Les [services web](:unixcorn:doc_publique:doc_publique#services-web)
+     * Les [espaces de discussion](:unixcorn:doc_publique:doc_publique#espaces-de-discussion)
+  - La [documentation relative à l'association](:unixcorn:association:association) qui pourrait voir le jour.
+  - La [publication des factures](:unixcorn:factures:factures) propres au fonctionnement du projet.
+
+----
+**⇒ Vous pouvez contribuer librement à condition de vous être inscrit-e sur cette forge, cependant nous nous réservons le droit de modérer.**
+
+Merci de respecter le travail des administrateur-ice-s et des contributeur-ice-s qui font tout cela bénévolement et qui prennent de leur temps libre pour fournir à tou-te-s une documentation claire et précieuse.
+
+**Merci aussi de ne pas modifier cette page.**

@@ -1,0 +1,120 @@
+## Service « cloud »
+Service de cloud basé sur le logiciel [Nextcloud](https://nextcloud.com): https://cloud.unixcorn.org
+
+![](https://pics.unixcorn.org/86jRtfOP/GgUzOB6S)
+
+### Remplace
+
+Ce service remplace efficacement les [silos](doc_publique/silo) non-libres tels que Dropbox, Google Docs/Drive, ou encore Microsoft Live.
+
+### Fonctionnalités
+Ce service d'hébergement de données dans le nuage est doté de nombreuses fonctionnalités :
+  * L'hébergement de fichiers
+  * La tenue de répertoires multiples
+  * La gestion de son emploi du temps avec de multiples agendas
+  * L'agrégation de flux RSS
+  * L'édition collaborative de documents
+  * L'organisation de galeries d'images
+
+L'intérêt notable du « cloud » réside dans la capacité à partager très facilement les informations, ainsi pour toutes les fonctionnalités précédemment citées (sauf l'agrégation de flux RSS) vous pourrez aussi :
+  - Partager celles-ci entre utilisateurs du « cloud »
+  - Partager celles-ci avec des personnes non utilisatrices
+  - Paramétrer les règles de partage
+  - Protéger les données partagées par un mot-de-passe 
+
+### Comment utiliser les services ?
+#### S'inscrire
+
+L'inscription au service cloud se fait à l'adresse https://cloud.unixcorn.org/index.php/apps/registration
+
+Vous êtes un peu perdu⋅e ? Suivez notre [guide pour l'inscription](doc_publique/services/cloud/inscription).
+
+#### Se connecter
+
+Vous pouvez vous connecter sur https://cloud.unixcorn.org en spécifiant votre pseudonyme et votre mot de passe. Si vous êtes sur un ordinateur dont l'usage est strictement personnel, vous pouvez cliquer la case « Rester connecté ».
+
+![](https://pics.unixcorn.org/HQm2KCI2/XIJGok2d)
+
+Cliquez sur la petite flèche pointant à droite et vous voilà connecté⋅e !
+
+![](https://pics.unixcorn.org/Wu7mRehy/JxG5zVJm)
+
+#### Installer le logiciel client
+Pour synchroniser aisément vos fichiers entre notre instance Owncloud et vos périphériques vous pouvez installer le logiciel client développé par Owncloud. Ce logiciel est multiplateforme, disponible notamment pour votre ordinateur, votre téléphone intelligent ou même votre tablette.
+
+##### Sur votre ordinateur
+###### Debian 8 Jessie
+L'installation se déroule uniquement en ligne de commande, ouvrez votre émulateur de terminal préféré et c'est parti ! Commençons par ajouter le dépôt officiel du projet avec la commande suivante:
+`echo 'deb http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Debian_8.0/ /' >> /etc/apt/sources.list.d/owncloud-client.list`
+
+Une fois cela fait, rechargez la liste de vos dépôts:
+`apt update`
+
+Téléchargez maintenant le certificat d'authenticité du dépôt:
+`wget http://download.opensuse.org/repositories/isv:ownCloud:desktop/Debian_8.0/Release.key`
+
+###### Ubuntu et dérivés
+Le [wiki Ubuntu francophone](https://doc.ubuntu-fr.org/utilisateurs/bcag2/nextcloud) a une page de documentation qui contient les différentes possibilitées d'installations du client Nextcloud sous Ubuntu, ainsi que des liens vers les paquets associés
+
+
+###### Client Android 
+Nextcloud a un client officiel pour Android, disponible sur le Google Play store mais aussi sur Fdroid, pour ceux (à raison) n'utilisent pas les Google Apps sur leur téléphone et les ont retirées. 
+
+Les clients Android sont toujours en version bêta, il est donc probable qu'ils contiennent des bugs, ou que des fonctionnalitées soient manquantes par rapport au client pour bureau. 
+
+Liens : 
+- [Fdroid](https://f-droid.org/repository/browse/?fdfilter=com.nextcloud)
+- [Google Play store](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+
+L'application officielle est aussi disponible sur l'Apple Store et sur le Windows Store (elles sont en bêta aussi !), la procédure de connexion reste la même. 
+
+Les liens : 
+- [Apple Store](https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8)
+- [Windows Store](https://www.microsoft.com/en-us/store/p/nextcloud/9nblggh532xq)
+
+Différentes applications tierces, qui permettent l'accès à différents services de Nextcloud (Calendrier, Contacts, etc.), sont aussi disponibles sur Fdroid et le Play Store. Vous pouvez par exemple synchroniser votre calendrier, vos contacts et vos tâches Nextcloud avec DAVdroid.
+
+**Utilisation**
+
+Une fois que vous aurez lancé l'application, un écran de connexion similaire à celui ci-dessous apparaîtrera.
+
+![](https://pics.unixcorn.org/yiQrmkYe/HthcUSl0.png)
+
+Le premier champ doit être rempli avec l'adresse du serveur Nextcloud (ici, celui d'unixcorn, qui équivaut à `cloud.unixcorn.org`), qui contient vos fichiers. Si vous utilisez un autre serveur Nextcloud, vous devez le remplir avec son adresse. 
+
+Les deux autres champs sont les champs habituels : nom d'utilisateur et mot de passe. Vous devez utiliser les mêmes que ceux que vous utilisez sur l'interface web (et non pas celui/ceux de votre téléphone!). Vous pouvez ensuite vous connecter, et l'application se chargera de synchroniser vos fichiers. Vous voilà prêts !
+
+**Note** : Si, lors de la connexion, un avertissement, demandant si vous "faites confiance à <exmaple.com> nom de domaine" apparaît (ce qui ne devrait pas arriver si vous vous connectez à unixcorn), c'est que la connexion au serveur distant n'est soit pas chiffrée (contrairement à unixcorn), ou alors que l'identité du serveur n'est pas vérifiée. Si vous êtes sûr de l'authenticité du serveur, vous pouvez appuyer sur oui. Sinon, la meilleure chose à faire est de contacter l'administrateur du site, qui a probablement mal configuré ses certificats SSL (ouh le vilain!)
+
+Vous pouvez maintenant gérer vos fichiers à partir de votre téléphone. Vous pouvez les envoyer à d'autres personnes, les partager à d'autres utilisateurs de Nextcloud (peu importe quelle instance ils utilisent), les déplacer/renommer/copier/supprimer (bref) mais aussi les ouvrir dans d'autres apps (pratique pour éditer présentations/documents avec lourdes mises en pages/etc. on-the-go). Vous pouvez aussi uploader des fichiers présents sur votre téléphone et gérer les paramètres de votre compte (via l'onglet "Réglages").
+
+#### Synchroniser ses fichiers avec WebDAV
+Installer le client officiel Nextcloud est assez aisé, néanmoins, on peut vouloir dans certains cas éviter l'installation d'applications tierces, ou vouloir se simplifier la vie. Heureusement, vous avez une solution !
+
+Nextcloud est basé sur le protocole WebDAV, qui est un protocole de synchronisation des fichiers très populaire et utilisé par de nombreux services. Les gestionnaires de fichiers sur les principaux OS (GNU/Linux, Mac OS X, Windows) supportent WebDAV (la seule méthode à ce jour disponible pour les applications mobiles est l'application officielle, ou l'utilisation d'un client WebDAV mobile (mais rare, et laborieux)).
+
+**Note** : Les implémentations du protocole WebDAV varient en fonction des systèmes, ne sont pas toujours stables, et les fichiers ne sont pas directement écrits sur le disque. Ils ne sont donc pas accessibles hors-ligne, et certaines opérations, qui demandent un taux d'écriture élevé, ou des opérations un tant soit peu complexes, peuvent mal se dérouler. L'option la plus fiable reste l'utilisation du client officiel.
+
+L'adresse générale d'accès à webDAV pour les clients qui ne sont pas cités en-dessous est https://cloud.unixcorn.org/remote.php/webdav/, dans le cas où vous utilisez un autre client. Notez qu'elle peut aussi marcher dans certains cités en-dessous (non-testé).
+
+###### GNU/Linux (Nautilus et dérivés (Caja, etc.))
+Pour vous connecter à un serveur à partir de Nautilus ou d'un de ses dérivés (comme Caja pour le bureau MATE), il vous suffit de cliquer sur 'File -> Connect to server' (ou clic-droit, puis 'Connect to server' sous GNOME), puis de rentrer l'adresse suivante dans la boîte de dialogue qui sera apparue à l'écran, dans le champ 'Server address' : 
+
+davs://cloud.unixcorn.org/remote.php/webdav/
+
+Le gestionnaire de fichiers vous demandera ensuite votre nom d'utilisateur et votre mot de passe (toujours ceux que vous utilisez pour vous connecter à Nextcloud), et un nouvel onglet apparaîtrera dans la barre latéral, où vous pourrez trouver vos fichiers, bien au chaud :)
+
+###### GNU/Linux (Dolphin (KDE) et dérivés)
+**Note** : Il y a apparement un bug avec certains versions de dolphin, dépendant de l'URL que vous utilisez et de votre version de Dolphin. Voir [ici]https://bugs.kde.org/show_bug.cgi?id=318743#c1) pour plus de détails.
+
+La procédure pour Dolphin, sous KDE, et ses dérivés est légèrement différente. Il faut : 
+
+1. Aller dans l'onglet "Network" (sous "Places") dans la barre latérale
+2. Cliquer sur "Add network folder" 
+3. Sélectionner WebDAV comme protocole, puis cliquer sur "Next"
+4. Remplir les champs avec les informations suivantes : 
+    - Le nom du dossier local (mettez ce que vous voulez)
+    - Votre nom d'utilisateur Nextcloud
+    - Le nom du serveur : ici, `cloud.unixcorn.org` sans rien d'autre
+    - Le chemin jusqu'à vos fichiers : ici, `remote.php/webdav/<votre_username>/`, où vous remplacez <votre_username> par votre nom d'utilisateur (exemple : 'jean-pierre', 'corinne', etc.)
+5. Cliquer sur 'Ok', et voilà !
