@@ -1,0 +1,60 @@
+## Association
+### Statuts légaux
+Proposition de statuts effectuée il y a quelques temps, à retravailler suivant les besoins ici: [Statuts](doc_publique/association/status)
+
+De même pour le règlement intérieur: [Règlement intérieur](doc_publique/association/reglement-interieur)
+
+### Réflexions en cours
+#### Système économique
+  * Pour les particuliers, sans obligation d'adhésion mais invitation à réaliser des dons sur une page web dédiée
+  * Pour les associations et les entreprises mais avec obligation d'adhésion
+  * Possibilité d'adhésion annuelle
+  * ... ou mensuelle/trimestrielle
+
+#### Description du projet associatif
+L'association loi 1901 permettra de former une entité administrative autour du projet.
+Nous aurons besoin de plusieurs services:
+
+  * Un compte bancaire = Laposte (virement, prélèvements, chèques...) : https://www.labanquepostale.fr/associations/services/comptes/adispo_association/adispo_asso_classic.html
+  * Une assurance si organisation d’événements physiques
+
+#### Les adhérents de l'association seront :
+  
+  * Les membres du bureau
+  * Toute personne intéressée par le projet
+
+Ceux-ci verseront une cotisation annuelle définie par le CA.
+
+---------------------
+Nous avons le choix de faire une association déclarée en préfecture ou non-déclarée, je vais lister les avantages et inconvénients de chacune:
+
+### DÉCLARÉE
+#### Avantages :
+* Permet de percevoir des subventions
+* Permet d'embaucher un ou plusieurs employés
+* La trésorerie est au nom de l'association
+* Permet d'assurer les membres et les adhérents de l'association, matériel etc.
+
+#### Inconvénients :
+
+* (Très) lourd à gérer administrativement
+* Obligation de notifier la préfecture de tout changement au sein du bureau de l'association ou des statuts
+* Obligation de sauvegarder tous les documents relatifs à l'administration de l'association pendant 5 ans minimum C'est à dire les compte-rendus des réunions de bureau (officiels), les assemblées générales et les conseils d'administration & la trésorerie
+* Nécessité de payer pour paraitre au Journal Officiel 1 x 44€ pour la déclaration de la création, puis 31€ pour une déclaration de modification (importante je suppose)
+
+
+### NON DÉCLARÉE
+#### Avantages :
+* Simple à gérer administrativement:
+* Pas obligé d'apparaitre au Journal Officiel
+
+#### Inconvénients :
+* La trésorerie est de la seule responsabilité du trésorier, le compte bancaire est alors à son nom
+* Impossible d'embaucher
+* Impossible de toucher des subventions
+* Impossible d'être reconnu d'utilité publique
+* Retombées médiatiques moins importantes
+* Impossible d'assurer l'association
+
+
+Plus d'informations: http://www.assistant-juridique.fr/ne_pas_declarer.jsp
