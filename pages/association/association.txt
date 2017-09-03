@@ -1,9 +1,8 @@
 ## Association
-n
 ### Statuts légaux
-Proposition de statuts effectuée il y a quelques temps, à retravailler suivant les besoins ici: [Statuts](doc_publique/association/status)
+Proposition de statuts effectuée il y a quelques temps, à retravailler suivant les besoins ici: [statuts](association:status)
 
-De même pour le règlement intérieur: [Règlement intérieur](doc_publique/association/reglement-interieur)
+De même pour le règlement intérieur: [Règlement intérieur](association:reglement-interieur)
 
 ### Réflexions en cours
 #### Système économique
