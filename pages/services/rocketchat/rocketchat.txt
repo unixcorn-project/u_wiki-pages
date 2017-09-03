@@ -1,0 +1,4 @@
+# Rocket Chat
+Rocket.Chat est une plateforme de chat en ligne.
+
+Elle permet comme IRC depuis des années de discuter dans des salons dédié, ou directement entre utilisateurs.  
