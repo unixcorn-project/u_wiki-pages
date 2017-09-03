@@ -1,4 +1,0 @@
-## Publication des dépenses
-Retrouvez sur cette page la publication mensuelle des dépenses liées au projet.
-Vous pouvez télécharger les différentes copies anonymisées des factures mises en ligne sur notre dépôt git: https://gogs.unixcorn.org/unixcorn-project/public-documentation/src/master/factures
-

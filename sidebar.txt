@@ -1,3 +1,0 @@
-~~NOCACHE~~
-====== Menu ======
-{{indexmenu>..:#1|js#drktheme navbar nocookie tsort msort}}
