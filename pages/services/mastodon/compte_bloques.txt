@@ -51,6 +51,7 @@
 * pourrito@mastodon.xyz
 * Drapher@mastodon.social
 * fabre_gregori@mamot.fr
+* dada@diaspodon.fr
 ```
 
 ### Bots
@@ -79,6 +80,7 @@
 * horgor@koyuston.tk
 * federation@compassion.online
 * followbot@hash.my
+* AerisBOT@social.katarpilar.com
 ```
 
 ## Liste des domaines bloqués
