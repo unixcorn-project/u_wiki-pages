@@ -1,0 +1,24 @@
+## Documentation technique
+### Infrastructure matérielle
+#### DigitalOcean
+Voici une liste des serveurs virtuels hébergés chez DigitalOcean :
+  * nginx01 : proxy Nginx
+  * gitea01 : forge logicielle Gitea
+  * mariadb01 : bases de données MySQL
+  * postgres01 : bases de données PostgreSQL
+  * php-fpm01 : serveur web php-fpm & nginx
+  * mastodon01 : réseau social mastodon
+  * perl01 : partage d'images Lutim
+  * rocket01 : messagerie instantanée
+  * backuppc01 : sauvegardes des machines
+
+### Infrastructure logicielle
+Voici une liste des principales technologies utilisées :
+  * Debian 9 Stretch
+  * Nginx mainline
+  * PHP 7.0
+  * MariaDB 10.1
+  * PostgreSQL 9.4
+  * OpenSSH
+  * acme.sh
+  * Git
