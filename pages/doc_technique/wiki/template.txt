@@ -18,7 +18,7 @@ Toutes les modifications faites sur le [dokuwiki](http://dokuwiki.org) **doivent
   cd doc.unixcorn.org/dokuwiki/data/repo
 
 Il faut le faire en plusieurs étapes :
-* Récupérer les modifications depuis le repository github :
+ * Récupérer les modifications depuis le repository github :
   git pull github master
-* Pousser les modifications sur le repository de maintenance du doku :
+ * Pousser les modifications sur le repository de maintenance du doku :
   git push origin master
