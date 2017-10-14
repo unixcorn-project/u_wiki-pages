@@ -1,0 +1,8 @@
+# Wiki
+
+## Édition de pages
+L’édition de page sur le wiki est ouverte à tous, vous pouvez contribuer à cette documentation simplement en créant un compte [ici même](https://doc.unixcorn.org/doku.php?id=start&do=register).  
+
+### Recommandation
+La documentation que nous fournissons a pour but d’aider au maximum les personnes utilisant les services proposés par [Unixcorn Project](http://unixcorn.org).  
+Ainsi, merci **d’être le plus simple possible** tout en restant précis.

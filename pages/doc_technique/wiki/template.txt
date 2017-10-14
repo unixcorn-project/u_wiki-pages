@@ -1,0 +1,24 @@
+# Template
+
+Le template du logiciel [dokuwiki](http://dokuwiki.org) utilisé pour écrire la documentation est édité à partir du [repository git](https://github.com/unixcorn-project/u_wiki-pages) contenant l’ensemble des données du wiki.  
+
+La modification du template est gérée par les contributeurs du [project Unixcorn](http://unixcorn.org), il n’est donc pas possible de contribuer « simplement » à cette partie.
+
+## Pour les contributeurs
+Pour modifier le template du [dokuwiki](http://dokuwiki.org), vous devez utiliser le [repo u_wiki-pages](https://github.com/unixcorn-project/u_wiki-pages). Le dossier concerné est **tpl**.  
+Vous trouverez dedans un/plusieurs dossier·s correspondant·s a·aux template·s existant·s.
+
+Une fois les modifications faites, créez une Pull Request pour que Mathias ou Vincent la valide et mettent à jour [l’instance dokuwiki](https://doc.unixcorn.org).
+
+## Rappel
+### Update depuis github
+
+Toutes les modifications faites sur le [dokuwiki](http://dokuwiki.org) **doivent être faites en utilisateur www-data** :
+  su - www-data --shell=/bin/bash
+  cd doc.unixcorn.org/dokuwiki/data/repo
+
+Il faut le faire en plusieurs étapes :
+* Récupérer les modifications depuis le repository github :
+  git pull github master
+* Pousser les modifications sur le repository de maintenance du doku :
+  git push origin master
