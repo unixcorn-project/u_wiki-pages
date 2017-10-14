@@ -15,7 +15,7 @@ Une fois les modifications faites, créez une Pull Request pour que Mathias ou V
 Le dossier natif où sont situé les templates dans dokuwiki se trouve dans :
   dokuwiki/lib/tpl/
 
-Pour une question de facilité pour la contribution et la maintenance, ce dossier a été migré dans le repository git qui est auto managé par [dokuwiki](http://dokuwiki) via le plugin [gitbacked plugin](:doc_technique:wiki:configuration_logicielle#gitbacked plugin).
+Pour une question de facilité pour la contribution et la maintenance, ce dossier a été migré dans le repository git qui est auto managé par [dokuwiki](http://dokuwiki) via le plugin [gitbacked plugin](:doc_technique:wiki:logiciel_technique#gitbacked plugin).
 Pour faire cette migration, rien de compliqué :
   mv lib/tpl data/repo/
   ln -s ~/doc.unixcorn.org/dokuwiki/data/repo/tpl ~/doc.unixcorn.org/dokuwiki/lib/tpl
