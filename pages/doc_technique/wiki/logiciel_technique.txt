@@ -21,12 +21,40 @@ Le repository est situé dans :
   dokuwiki/data/repo
 
 Ce repo contient trois dossiers :
-  * media : Tout les médias (fichiers, images, scripts, etc…) qui ont été ajouté dans le wiki
-  * pages : Toutes les pages de documentation du wiki au format texte
-  * tpl : Dossier contenant les templates du wiki
+  * **media** : Tout les médias (fichiers, images, scripts, etc…) qui ont été ajouté dans le wiki
+  * **pages** : Toutes les pages de documentation du wiki au format texte
+  * **tpl** : Dossier contenant les templates du wiki
 
 ### Indexmenu plugin
+Le plugin indexmenu est celui qui permet de générer automatiquement (via du js) le menu du [dokuwiki](http://dokuwiki.org).  
+Il maintient le menu à jour dynamiquement lors de la création de pages et où de nœud (dossiers).
+
+Le contenu de la page [sidebar](:sidebar) correspondant au menu est le suivant :
+  ~~NOCACHE~~
+  ====== Menu ======
+  {{indexmenu>..:#1|js#drktheme navbar nocookie tsort msort}}
 
 ### Markdownku
+Un petit plugin permettant l’édition des pages en markdown en plus du format standard de [dokuwiki](http://dokuwiki).
 
 ### Revert manager
+Il permet la gestion des modifications des pages. Comme le fait git, mais de façon beaucoup plus simple pour les utilisateurs ne travaillant pas via le repository.
+
+## Architecture
+Tout le contenu du wiki de documentation du [projet unicorn](http://unixcorn.org) est géré au travers d’un repository git.  
+La maintenance de ce repository est totalement transparente pour les utilisateurs éditant de la documentation directement depuis l’interface du [dokuwiki](http://dokuwiki.org), mais il est très pratique pour les mainteneurs en cas de retour arrière à faire ou pour changer de machine par exemple.
+
+Comme précisé [précédemment](#gitbacked plugin), le repository contient trois dossiers. **media** et **pages** sont géré automatiquement lors de l’édition des pages et/ou ajout de médias.
+Ce repository pointe sur une forge privée de l’un des contributeurs, pour de simple raisons techniques car il faut un utilisateur avec des accès automatiques pour pouvoir envoyer les modifications mais aussi les récupérer.
+
+Un autre dossier est présent dans ce repository, **tpl**. Ce dossier contient les thèmes utilisables dans le wiki. Il est stocké dans le même repository, mais pour tout centralisé, ce repository est dupliqué sur [github](https://github.com/unixcorn-project/u_wiki-pages).
+
+### Configuration des remotes
+
+#### Origin
+Le remote origin pointe sur la [forge de Vincent](https://git.fricouv.eu/unixcorn-project/u_wiki-pages).  
+C’est ce repository qui est le « maître » sur le contenu des médias et des pages.
+
+#### Github
+Le remote github pointe sur le [repository github](https://github.com/unixcorn-project/u_wiki-pages) qui est mis à jour manuellement régulièrement.  
+Ce dépot sert à la création du template pour la mise en forme graphique du wiki.
