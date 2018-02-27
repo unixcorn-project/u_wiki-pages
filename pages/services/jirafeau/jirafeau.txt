@@ -1,6 +1,7 @@
-### Service d'upload (mise en ligne) et de partage de fichiers : Jirafeau
+## Partage de fichiers en ligne (Jirafeau)
 
 [Jirafeau](https://gitlab.com/mojo42/Jirafeau) est un service permettant de mettre en ligne un fichier simplement, puis de le télécharger ou de le partager en utilisant le lien généré lors de la mise en ligne. L'instance se trouve [ici](https://drop.unixcorn.org/) : https://drop.unixcorn.org/
+{{ :services:jirafeau:drop_capture_1.jpg?400 |}}
 
 ### Fonctionnement
 Pour mettre en ligne un fichier, rendez-vous sur https://drop.unixcorn.org/ . Vous pouvez alors cliquer sur le bouton représentant un fichier au milieu de la page, puis choisir un fichier dans la boîte de dialogue qui s'ouvre. Vous pouvez aussi faire un glisser-déposer vers la zone entourée de pointillés. Votre fichier ne doit pas faire plus de 3076 MB, c'est-à-dire pas plus de 3Go/GB.

@@ -3,7 +3,7 @@
 Cette documentation est composée de quatre parties différentes :
   - La [documentation « grand public »](:doc_publique:doc_publique) (ouverte à tou-te-s)
      * Les [services web](:doc_publique:doc_publique#services-web)
-     * Les [espaces de discussion](:doc_publique:doc_publique#espaces-de-discussion)
+     * Les [espaces de discussion et de supports](:doc_publique:doc_publique#espaces-de-discussion)
   - La [documentation relative à l'association](:association:association) qui pourrait voir le jour.
   - La [publication des factures](:factures:factures) propres au fonctionnement du projet.
 

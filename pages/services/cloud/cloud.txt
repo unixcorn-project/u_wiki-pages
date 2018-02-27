@@ -1,7 +1,7 @@
-## Service « cloud »
+## Cloud (nextcloud)
 Service de cloud basé sur le logiciel [Nextcloud](https://nextcloud.com): https://cloud.unixcorn.org
 
-![](https://pics.unixcorn.org/86jRtfOP/GgUzOB6S)
+{{:services:cloud:cloud_unixcorn_01.jpg?400 |}}
 
 ### Remplace
 

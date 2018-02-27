@@ -1,0 +1,10 @@
+## guide d'inscription au service cloud
+
+  * Pour vous inscrire vous aurez besoin d'une adresse email accessible ainsi que d'une connexion à internet. Pour commencer à utiliser le service cloud d'Unixcorn rendez vous à cette adresse web : https://cloud.unixcorn.org/login
+  * Cliquez sur le bouton "s'enregistrer" sous le formulaire de connexion.
+
+{{ :services:cloud:cloud_unixcorn_01.jpg?400 |}}
+{{ :services:cloud:cloud_unixcorn_02.jpg?400 |}}
+{{ :services:cloud:cloud_unixcorn_03.jpg?400 |}}
+{{ :services:cloud:cloud_unixcorn_04.jpg?400 |}}
+{{ :services:cloud:cloud_unixcorn_05.jpg?400 |}}

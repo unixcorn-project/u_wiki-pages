@@ -3,9 +3,15 @@ Vous retrouverez ici toute la documentation nécessaire à la bonne utilisation 
 
 ### Services web
   * Hébergement de données « [cloud](:services:cloud:cloud) »
-  * Partage de presse-papier « [privatebin](:services:privatebin:privatebin) »
-  * Hébergement d'images « [lutim](:services:lutim:lutim) »
+  * Plateforme de travail collaborative « [mattermost](:services:mattermost:mattermost) »
+  * Réseau social Mastodon « [Mastodon](:services:Mastodon:Mastodon) »
   * Partage de fichiers « [jirafeau](:services:jirafeau:jirafeau) »
+  * Pads Collaboratifs en markdown « [HackMD](:services:HackMD:HackMD) »
+  * Partage de presse-papier « [privatebin](:services:privatebin:privatebin) »
+  * Téléchargement de vidéos « [alltube](:services:alltube:alltube) »
 
-### Espaces de discussion
-  * [Forum de discussion](:services:forum:forum)
+### Espaces de discussion et de supports
+  * Forum de discussion « [Forum](:supports:flarum:flarum) »
+  * Documentations Unixcorn « [Documentations](:supports:Dokuwiki:Dokuwiki) »
+  * Plateforme de dons « [Documentations](:supports:Liberapay:Liberapay) »
+
